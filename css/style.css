@@ -333,10 +333,8 @@ header .nav-links.active {
     height: 100px;
   }
   .contactSection {
-    position: absolute;
+    position: relative;
     margin: 50px 30px;
-    -webkit-transform: translate(0, -2px);
-            transform: translate(0, -2px);
   }
 }
 /*# sourceMappingURL=style.css.map */
