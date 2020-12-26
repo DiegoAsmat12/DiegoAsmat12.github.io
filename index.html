@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kiria Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script src="https://kit.fontawesome.com/35c5d16f06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="Kiria.png" alt="logo">
+        <button class="toggle" onclick="toggle()"></button>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Nuestras Piedras</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="contenido">
+            <div class="texto">
+                <h1>Accesorios hechos 100% a mano, creados con el corazón</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusamus cumque explicabo tenetur totam necessitatibus quasi ducimus! Quibusdam sed unde animi dignissimos! Incidunt modi facilis iusto officia optio debitis aspernatur?</p>
+            </div>
+            
+        </div>
+        <div class="imgBox">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="Grupo2.jpg"></div>
+                  <div class="swiper-slide"><img src="Grupo15.jpg"></div>
+                  <div class="swiper-slide"><img src="Grupo32.jpg"></div>
+                  <div class="swiper-slide"><img src="Grupo40.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+        
+    </section> 
+    <section class="contactSection">
+        <ul>
+            <li><a href="https://www.instagram.com/kiria.design.peru/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </section> 
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'cube',
+          direction: 'horizontal',
+          grabCursor: true,
+          loop:true,
+          centeredSlides: true,
+          
+          cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset:20,
+            shadowScale:0.94,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+            
+            },
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false,
+            },
+            
+        });
+      </script>
+</body>
+</html>
