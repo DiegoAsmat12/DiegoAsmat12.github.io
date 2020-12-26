@@ -321,7 +321,7 @@ header .nav-links.active {
   }
   .banner .contenido {
     margin: 20px 10px;
-    margin-top: 50px;
+    margin-top: 100px;
     width: 80%;
   }
   .banner .imgBox .swiper-container {
@@ -333,7 +333,6 @@ header .nav-links.active {
     height: 100px;
   }
   .contactSection {
-    position: relative;
     margin: 10px 30px;
   }
 }
