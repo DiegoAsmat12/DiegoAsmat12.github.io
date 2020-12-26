@@ -246,12 +246,11 @@ header{
 @media (max-width:600px){
     body{
         font-size: 16px;
-
     }
     .banner{
         .contenido{
-            margin:60px 10px;
-            margin-top: 100px;
+            margin:20px 10px;
+            margin-top: 50px;
             width: 80%;
         }
         .imgBox{
@@ -267,6 +266,6 @@ header{
     }
     .contactSection{
         position: relative;
-        margin: 50px 30px;
+        margin: 10px 30px;
     }
 }
