@@ -262,7 +262,8 @@ header{
         height: 100px;
     }
     .contactSection{
-        position: relative;
+        position: absolute;
         margin: 50px 30px;
+        transform: translate(0,-2px);
     }
 }
